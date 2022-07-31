@@ -1,5 +1,6 @@
 # Fuel_Calculator_Android
 Android application for caclulate fuel consumption. Written by Java.
+Google Play Link: https://play.google.com/store/apps/details?id=com.appkhan.fuelcalculator&hl=tr&gl=US
 
 
 # MainActivity
@@ -8,4 +9,8 @@ Android application for caclulate fuel consumption. Written by Java.
 
 # calculateNowActivity
 
+![Screenshot](2.jpg)
+
 # howToActivity
+
+![Screenshot](3.jpg)
