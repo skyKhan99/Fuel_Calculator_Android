@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Yakıt Hesaplama</string>
+    <string name="saveVehicle">Araç Kaydet</string>
+    <string name="calculate">Hemen Hesapla</string>
+    <string name="hmLiter">Arabam kaç litre yakıyor?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="vehicleName">Araç Adı</string>
+    <string name="vehicleNameHint">Aracınıza isim verin</string>
+    <string name="fuelWasting">Yakıt Tüketimi</string>
+    <string name="fuelWastingHint">100 km\'de kaç L</string>
+    <string name="save">KAYDET</string>
+    <string name="toastSave">Aracınız Kaydedildi</string>
+    <string name="title_activity_calculate_now">Hemen Hesapla</string>
+    <string name="tab_text_1">Kayıtlı Araçla</string>
+    <string name="tab_text_2">Kayıtlı Araç Yok</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="kacKmGidilecek">Kaç KM gideceksiniz</string>
+    <string name="kacL">Aracınız 100 KM\'de kaç L yakıyor?</string>
+    <string name="yakitFiyatSwitch">Yakıt Fiyatını Otomatik Al (İnternet Gerekir)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tahminiSure">Tahmini varış süresi (saat) :</string>
+    <string name="tiklaOc">\"Hemen Hesapla\"ya Tıklayın...</string>
+    <string name="fiyatInfoText">Toplam Yakıt Ücreti</string>
+    <string name="guncelFiyatManual">Güncel Yakıt Fiyatı</string>
+    <string name="yakilacakYakit">Yakılacak Yakıt :</string>
+    <string name="money">₺</string>
+    <string name="saat">saat</string>
+    <string name="noValues">Değer girişi yapmadınız...</string>
+    <string name="kacGittin">Kaç Km Yol Gittiniz?</string>
+    <string name="neKadarYakitAldin">Ne Kadar Yakıt Aldınız?</string>
+    <string name="previously">Öncelikle...</string>
+    <string name="ilkaciklama">-</string>
+    <string name="tamam">Tamam</string>
+    <string name="aciklama2">-</string>
+    <string name="later">sonra</string>
+    <string name="araciniz">Aracınız 100 KM\'de</string>
+    <string name="kmyakiyor">KM Yakıyor</string>
+    <string name="veriAlirkenHata">Verileri alırken bir hata oluştu...</string>
+    <string name="yakitNe">Aracınızın yakıtı nedir?</string>
+
+</resources>

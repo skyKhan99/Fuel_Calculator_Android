@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:screenOrientation="portrait"
+    android:background="@drawable/app_background"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:drawableTop="@drawable/fcbuyuk"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#080F39"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8379310124540160/4304779461" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/calculate"
+        android:layout_marginLeft="50dp"
+        android:drawableRight="@drawable/ic_save"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/saveVehicle"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:drawableRight="@drawable/ic_calculator_for_icon"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/buttonshape"
+        android:layout_centerHorizontal="true"
+        android:text="@string/calculate"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/calculate2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calculate"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:drawableRight="@drawable/ic_primary_gnome_question"
+        android:background="@drawable/buttonshape"
+        android:text="@string/hmLiter"
+        android:textColor="#ffff"
+        android:layout_marginLeft="50dp" />
+
+    <FrameLayout
+        android:id="@+id/fragmentSpace"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true" />
+    
+
+
+</RelativeLayout>

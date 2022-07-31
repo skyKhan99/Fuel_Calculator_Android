@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuel Calculator</string>
+    <string name="saveVehicle">Save Vehicle</string>
+    <string name="calculate">Calculate Now</string>
+    <string name="hmLiter">How much fuel does my car burn?</string>
+    <string name="vehicleName">Vehicle Name</string>
+    <string name="vehicleNameHint">Name your vehicle</string>
+    <string name="fuelWasting">Fuel Consumption</string>
+    <string name="fuelWastingHint">How much L in 100 km?</string>
+    <string name="save">SAVE</string>
+    <string name="toastSave">Your Vehicle Saved</string>
+    <string name="title_activity_calculate_now">Calculate Now</string>
+    <string name="tab_text_1">With Saved Vehicle</string>
+    <string name="tab_text_2">No Saved Vehicle</string>
+    <string name="kacKmGidilecek">How much your routes KM?</string>
+    <string name="kacL">How much burns fuel your car per 100 KM?</string>
+    <string name="yakitFiyatSwitch">Take fuel cost otomatically on Internet (Only Turkey)</string>
+    <string name="tahminiSure">Estimated trip duration (hour) :</string>
+    <string name="tiklaOc">Click to \"Calculate Now\"...</string>
+    <string name="fiyatInfoText">Cost of Fuel :</string>
+    <string name="guncelFiyatManual">"Current Fuel Price "</string>
+    <string name="yakilacakYakit">Fuel to be burned (L) :</string>
+    <string name="money">$</string>
+    <string name="saat">hours</string>
+    <string name="noValues">You didn\'t enter values...</string>
+    <string name="kacGittin">How Much Km was Your Distance?</string>
+    <string name="neKadarYakitAldin">How Much Fuel You Bought?</string>
+    <string name="previously">Previously...</string>
+    <string name="ilkaciklama">Make full your tank before start for trip.</string>
+    <string name="tamam">OK</string>
+    <string name="aciklama2">Make full your tank again when your trip finish. Look to how much fuel you brought</string>
+    <string name="later">Later...</string>
+    <string name="araciniz">Your Vehicle Wasting</string>
+    <string name="kmyakiyor">L in 100 KM</string>
+    <string name="veriAlirkenHata">Error...</string>
+    <string name="yakitNe">\?</string>
+</resources>

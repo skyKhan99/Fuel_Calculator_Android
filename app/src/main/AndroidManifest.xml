@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appkhan.fuelcalculator">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/fc"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name="com.appkhan.fuelcalculator.howToActivity"
+            android:exported="true" />
+        <activity android:name="com.appkhan.fuelcalculator.calculateNow" />
+        <activity
+            android:name="com.appkhan.fuelcalculator.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8379310124540160~2828239787" />
+    </application>
+
+</manifest>
